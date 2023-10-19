@@ -30,7 +30,7 @@ const PLAYERS = [
       var player = {
         name: PLAYERS[i],
         strength: getRandomStrength(),
-        image: "/images/super-" + (i + 1) + ".png",
+        image: "images/super-" + (i + 1) + ".png",
         type: getRandomType(),
       };
       detailedPlayers.push(player);
